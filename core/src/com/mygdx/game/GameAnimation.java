@@ -20,9 +20,9 @@ public class GameAnimation {
         TextureRegion[] regionsAligned = new TextureRegion[width * height];
 
         int cnt = 0;
-        for (int i = 0; i < regions.length; i++) {
-            for (int j = 0; j < regions[i].length; j++) {
-                regionsAligned[cnt++] = regions[i][j];
+        for (TextureRegion[] reg: regions) {
+            for (TextureRegion subReg: reg) {
+                regionsAligned[cnt++] = subReg;
             }
         }
 
