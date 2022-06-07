@@ -9,7 +9,7 @@
   </data>
  </layer>
  <objectgroup id="7" name="Слой объектов 1">
-  <object id="1" name="Camera" x="500" y="400">
+  <object id="1" name="Camera" x="370" y="650">
    <point/>
   </object>
  </objectgroup>
